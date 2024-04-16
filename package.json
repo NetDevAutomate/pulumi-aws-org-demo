@@ -1,0 +1,14 @@
+{
+    "name": "aws-organizations",
+    "devDependencies": {
+        "@types/node": "^20",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "@aws-sdk/client-organizations": "^3.554.0",
+        "@pulumi/aws": "^6.30.0",
+        "@pulumi/aws-native": "0.101.0",
+        "@pulumi/awsx": "^2.7.0",
+        "@pulumi/pulumi": "^3.112.0"
+    }
+}

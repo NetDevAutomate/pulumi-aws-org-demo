@@ -1,0 +1,10 @@
+name: transitgateway
+runtime: nodejs
+description: A minimal TypeScript Pulumi program
+config:
+  aws:region:
+    value: eu-west-1
+  transitgateway:region:
+    value: eu-west-1
+  hub-and-spoke-supernet:
+    value: "10.0.0.0/8"

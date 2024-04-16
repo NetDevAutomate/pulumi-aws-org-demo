@@ -1,0 +1,7 @@
+name: org-lab
+runtime: nodejs
+description: AWS Org project for Firewall Manager
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
